@@ -22,6 +22,7 @@ public class BubbleSort {
                 }
 
             }
+            // if array is already sorted then it will break
             if(x==0){
                 break;
             }
