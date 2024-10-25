@@ -1,3 +1,5 @@
+// important sorting algorithm 
+//Bubble sorting 
 public class BubbleSort {
     public static void main(String[] args) {
         int[] a= {12,15,90,10,65,31,99,2};
