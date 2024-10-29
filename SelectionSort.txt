@@ -1,0 +1,16 @@
+class SelectionSort{
+
+	public static void main(String[] args){
+
+	//method calling
+		selectionSort(a);
+		
+		}
+    //method declaration
+	
+	public static void selectionSort(int[] a){
+
+
+		}
+
+}
