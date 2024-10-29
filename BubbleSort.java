@@ -1,3 +1,6 @@
+//dated->22/10/2024
+// important sorting algorithm 
+//Bubble sorting 
 public class BubbleSort {
     public static void main(String[] args) {
         int[] a= {12,15,90,10,65,31,99,2};
@@ -22,6 +25,7 @@ public class BubbleSort {
                 }
 
             }
+            // if array is already sorted then it will break
             if(x==0){
                 break;
             }
