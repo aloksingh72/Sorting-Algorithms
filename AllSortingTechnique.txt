@@ -1,0 +1,119 @@
+class BubbleSort{
+
+	public static void main(String[] args){
+	
+	int[] a = {5,998,36,4,5,32,72};
+	//method calling
+	bubbleSort(a);
+
+	for(int i =0;i<a.length;i++){
+		System.out.print(a[i]+" ");
+
+		}
+	
+
+
+	}
+
+	//method declaration
+	public static void bubblesort(int[] a){
+
+		int n = a.length;
+		for(int i =0;i<n-1;i++){
+			int x =0;
+		for(int j=0; j<n-1-i;j++){
+			if(a[j] > a[j+1]){
+
+           int temp = a[j];
+				a[j] = a[j+1];
+				a[j+1] = temp;
+					x++;					
+				}
+
+
+			}
+		if(x==0){
+			break;
+		}
+
+		}
+	
+	}
+
+}
+==========================================================================================
+
+class SelectionSort{
+	public static void main(String[] args){
+
+		int[] a = {65,98,45,65,12,36,78,90};
+		//mehtod calling
+		selectionSort(a);
+	
+
+	}
+		
+	//method declaration
+	public staic void selectionSort(int[] a){
+
+		int n = a.length;
+		for(int i =0;i<n-1;i++){
+
+				int minInd = i;
+
+				for(int j =i+1;j<n;j++){
+					
+						if(a[j] <a[minInd]){
+
+									minInd = j;
+							}
+					}
+		
+				int temp = a[minInd];
+				a[minInd] = a[i];
+				a[i] = temp;
+				
+			}
+
+		}
+
+}
+
+=======================================================================================
+class InsertionSort{
+	public static void main(String[] args){
+
+	int[] a = {5,6,9,8,97,36,12,10};
+	//method calling
+		insertoinSort(a);
+	for(int i =0;i<a.length;i++){
+	System.out.print(a[i]+" ");
+
+		}
+
+	}
+
+	//method declaration
+	public satic void insertionSort(int[] a){
+	
+	int n = a.length;
+	for(int i =1;i<n;i++){
+		int key = a[i];
+		int j =i-1;
+
+		while(j>=0 && a[j] > key){
+
+					a[j+1]=a[j];
+					j--;
+			}
+		a[j+1] =key;
+
+		}
+
+	}
+
+
+}
+
+
+
