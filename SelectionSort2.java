@@ -1,3 +1,5 @@
+//Dated-> 03/11/2024
+//Ques-> Selection Sort Practice program
 public class SelectionSort2 {
     public static void main(String[] args) {
         int[] a = {4,5,9,8,78,65,9,4,0};
