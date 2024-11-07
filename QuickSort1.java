@@ -1,3 +1,5 @@
+//dated->05/11/2024
+// quick sort
 public class QuickSort1 {
     public static void main(String[] args){
 
