@@ -1,3 +1,5 @@
+//Dated-> 08/11/2024
+// merge sort pratice
 class MergeSort1 {
 
 	public static void main(String[] args) {
