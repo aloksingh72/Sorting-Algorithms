@@ -1,3 +1,5 @@
+//Dated ->07/11/2024
+// Sorting by using Merge sort
 public class MergeSort {
 
     public static void main(String[] args) {
