@@ -32,7 +32,7 @@ class MergeSort1 {
 		}
 
 	}
-
+       //merge method logic
 	public static void merge(int[] arr, int left, int mid, int right) {
 
 		// calculate the sizes of two sub arrays
