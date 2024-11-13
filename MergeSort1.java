@@ -44,15 +44,7 @@ class MergeSort1 {
 		int[] rArr = new int[n2];
 
 		// copy data to the temporary arrays
-		// for (int i = 0; i < n1; i++) {
-
-		// 	lArr[i] = arr[left + i];
-
-		// }
-		// for (int j = 0; j < n2; j++) {
-		// 	rArr[j] = arr[mid + 1 + j];
-		// }
-
+	
 		for(int i =0;i<n1;i++){
 			lArr[i] = arr[left +i];
 		}
@@ -62,9 +54,13 @@ class MergeSort1 {
 		}
 		// comparing and Merge the left arrays elements and right arrays elements
 
-		int i = 0;
-		int j = 0;
-		int k = left;
+		// int i = 0;
+		// int j = 0;
+		// int k = left;
+
+		//or we can write all these onces
+		int i =0,j=0,k=left;
+
 		while (i < n1 && j < n2) {
 
 			if (lArr[i] <= rArr[j]) {
