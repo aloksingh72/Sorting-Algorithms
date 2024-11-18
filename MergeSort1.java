@@ -1,5 +1,7 @@
 //Dated-> 08/11/2024
 // merge sort pratice
+
+//another way try to avoid it due its learing complexity
 class MergeSort1 {
 
 	public static void main(String[] args) {
