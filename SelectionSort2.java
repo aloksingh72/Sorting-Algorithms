@@ -9,6 +9,7 @@ public class SelectionSort2 {
             System.out.print(a[i]+" ");
         }
     }
+    //method declaration 
     public static void selectionSort(int[] a){
         int n = a.length;
         for(int i =0;i<n-1;i++){
